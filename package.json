@@ -1,0 +1,63 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.8",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.13",
+    "express": "^4.13.4",
+    "jquery": "^2.2.1",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.5.15"
+  },
+  "devDependencies": {
+    "bower": "^1.6.8",
+    "browser-sync": "latest",
+    "connect-livereload": "~0.2.0",
+    "del": "latest",
+    "grunt-google-cdn": "~0.2.0",
+    "grunt-ngmin": "~0.0.2",
+    "gulp": "latest",
+    "gulp-add-src": "latest",
+    "gulp-cached": "latest",
+    "gulp-concat": "latest",
+    "gulp-css-url-rebase": "latest",
+    "gulp-debug": "latest",
+    "gulp-htmlmin": "latest",
+    "gulp-inject": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-ng-annotate": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev-all": "^0.8.22",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-tslint": "latest",
+    "gulp-typescript": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "gulp-watch": "latest",
+    "karma": "latest",
+    "lodash": "^4.6.1",
+    "lodash.assign": "latest",
+    "matchdep": "~0.1.2",
+    "merge2": "latest",
+    "mkdirp": "latest",
+    "run-sequence": "latest",
+    "stream-series": "latest",
+    "systemjs": "0.19.16",
+    "systemjs-builder": "0.12.2",
+    "typescript": "^1.8.7",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}

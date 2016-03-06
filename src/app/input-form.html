@@ -1,0 +1,12 @@
+<label>Name:</label>
+<input type="text"
+       [(ngModel)]="yourName"
+       (input)="nameChanged($event.target.value)"
+       placeholder="Enter a name here">
+<hr>
+<h1 [hidden]="!yourName">Hello {{yourName}}!</h1>
+
+<div>
+  Output: {{output}}
+</div>
+
