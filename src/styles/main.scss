@@ -1,0 +1,33 @@
+
+body {
+
+  padding: 50px 50px;
+
+  font-family: sans-serif;
+  font-size: 20px;
+
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  @mixin block() {
+    padding: 20px 20px;
+  }
+
+  .input {
+    @include block();
+    background-color: #d2ffd6;
+  }
+
+  .output {
+    @include block();
+    background-color: #ffedbb;
+  }
+
+  .kombiniert {
+    @include block();
+    background-color: #ccd5ff;
+  }
+
+}
