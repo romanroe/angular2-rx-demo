@@ -3,14 +3,14 @@
   <div class="col-sm-6">
 
     <h1>Input Links</h1>
-    <input (input)="inputLinksChanged($event.target.value)">
+    <input (input)="inputLinks.next($event.target.value)">
 
   </div>
 
   <div class="col-sm-6">
 
-    <!--<h1>Input Rechts</h1>-->
-    <!--<input (input)="inputRechtsChanged($event.target.value)">-->
+    <h1>Input Rechts</h1>
+    <input (input)="inputRechts.next($event.target.value)">
 
   </div>
 
@@ -27,8 +27,8 @@
 
   <div class="col-sm-6">
 
-    <!--<h1>Output Rechts, Anzahl 'X' vom Server</h1>-->
-    <!--{{outputRechts}}-->
+    <h1>Output Rechts, Anzahl 'X' vom Server</h1>
+    {{outputRechts}}
 
   </div>
 </div>
@@ -36,8 +36,8 @@
 <div class="row kombiniert">
   <div class="col-sm-12">
 
-    <!--<h1>Kombiniert</h1>-->
-    <!--<div id="kombiniert"></div>-->
+    <h1>Kombiniert</h1>
+    <div id="kombiniert"></div>
 
   </div>
 </div>
