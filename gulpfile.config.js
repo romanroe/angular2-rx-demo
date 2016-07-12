@@ -78,7 +78,7 @@ var GulpConfig = (function () {
         // SystemJS
         // ----------------------------------------------------------
 
-        this.systemImportMain = "app/main";
+        this.systemImportMain = "app/init";
 
         this.systemJSConfig = {
             //baseURL: '',

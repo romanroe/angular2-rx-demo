@@ -7,7 +7,6 @@ import {Component} from "angular2/core";
 import {Observable} from "rxjs/Observable";
 import {Subject} from "rxjs/Subject";
 
-
 @Component({selector: "main-app", templateUrl: "app/main.html"})
 export class Main {
 
@@ -17,7 +16,7 @@ export class Main {
     inputLinksUpper = this.inputLinks
         .map(s => s.toUpperCase());
 
-    inputRechtsCountX: Observable<string> = this.inputRechts
+    inputRechtsCountX = this.inputRechts
         .debounceTime(1000)
         .flatMap(value => {
             var ajax = $.get("http://localhost:8080/countX?text=" + value).promise();
@@ -35,7 +34,7 @@ export class Main {
             this.outputLinks = value;
         });
 
-        this.inputRechtsCountX.subscribe(value => {
+        this.inputRechtsCountX.subscribe((value: any) => {
             this.outputRechts = value;
         });
 
