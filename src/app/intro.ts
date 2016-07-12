@@ -1,5 +1,3 @@
-// declare var $: any;
-
 import "rxjs/Rx";
 import {Observable} from "rxjs/Rx";
 
