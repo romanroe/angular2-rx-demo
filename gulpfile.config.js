@@ -13,9 +13,9 @@ var GulpConfig = (function () {
             "node_modules/es6-shim/es6-shim.js",
             "node_modules/systemjs/dist/system-polyfills.js",
             "node_modules/systemjs/dist/system.js",
-            "node_modules/angular2/bundles/angular2-polyfills.js",
+            // "node_modules/angular2/bundles/angular2-polyfills.js",
             "node_modules/rxjs/bundles/Rx.js",
-            "node_modules/angular2/bundles/angular2.dev.js",
+            // "node_modules/angular2/bundles/angular2.dev.js",
 
             "node_modules/bootstrap/dist/css/bootstrap.css",
             "node_modules/bootstrap/dist/js/bootstrap.js"
@@ -62,7 +62,7 @@ var GulpConfig = (function () {
         // Relative to Root folder
 
         this.typeScriptDefinitions = [
-            "typings/main.d.ts"
+            "typings/index.d.ts"
             //"node_modules/rxjs/**/*.d.ts"
             //"node_modules/typescript/lib/lib.core.es6.d.ts"
         ];

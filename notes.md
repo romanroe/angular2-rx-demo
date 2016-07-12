@@ -5,7 +5,7 @@ Observable.fromArray
 
 .zip
 
-(fromPromise)
+create
 interval
 throttleTime
 
